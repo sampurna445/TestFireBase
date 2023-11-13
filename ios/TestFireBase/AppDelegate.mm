@@ -8,8 +8,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [FIRApp configure];
-  use_frameworks! :linkage => :static
-  $RNFirebaseAsStaticFramework = true
   self.moduleName = @"TestFireBase";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
